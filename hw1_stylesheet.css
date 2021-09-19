@@ -1,0 +1,91 @@
+h1 {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    margin-top:24px;
+    border: 2px outset black;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+Body {
+    font-family: sans-serif;
+    background-image: url(brick_background.jpg);
+}
+
+img {
+    border-radius:20px;
+    width:30%;
+    height:30%;
+    float:right;
+}
+
+table, th, td {
+    border-spacing:0;
+    height:100px;
+    width:100px;
+    text-align:center;
+}
+
+tr:nth-child(even) {
+    background-color:lightgoldenrodyellow;
+}
+
+tr:nth-child(odd) {
+    background-color:pink;
+}
+
+a:hover {
+    color:green;
+}
+
+.Summary {
+    border: 2px outset black;
+    background-color:honeydew;
+    margin-left:40%;
+    margin-right:40%;
+    text-align:left;
+    position:absolute;
+    left:-350px;
+    top:170px;
+}
+
+.hobbyLists {
+    border: 2px outset black;
+    text-align:center;
+    background-color: lavender;
+    float:right;
+    width:300px;
+    position:relative;
+    top:-230px;
+}
+.educationList {
+    border: 2px outset black;
+    background-color: lavender;
+    float:right;
+    width:600px;
+    position:relative;
+    top:-350px;
+    left:-300px;
+}
+
+.quote {
+    border: 2px outset black;
+    background-color:lightgreen;
+    float:right;
+    width:600px;
+    position:relative;
+    top:-270px;
+    left:-300px;
+    text-align:center;
+}
+
+.websites {
+    border: 2px outset black;
+    background-color:lightblue;
+    float:right;
+    width:600px;
+    position:relative;
+    top:-200px;
+    left:-300px;
+    text-align:center;
+}
